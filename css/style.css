@@ -6,20 +6,20 @@ body {
 font-family: 'Cabin', sans-serif;
 }
 
-.song {
+.poem {
     display: block;
     max-width: 1140px;
     text-align: center;
 }
 
-.song-title {
+.poem-title {
     font-size: 35px;
 }
 
-.song-author {
+.poem-author {
     font-style: italic;
 }
 
-.song-text {
+.poem-text {
     font-size: 18px;
 }
