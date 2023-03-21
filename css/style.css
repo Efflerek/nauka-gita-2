@@ -1,0 +1,25 @@
+*, *::before  *::after {
+    box-sizing: border-box;
+}
+
+body {
+font-family: 'Cabin', sans-serif;
+}
+
+.song {
+    display: block;
+    max-width: 1140px;
+    text-align: center;
+}
+
+.song-title {
+    font-size: 35px;
+}
+
+.song-author {
+    font-style: italic;
+}
+
+.song-text {
+    font-size: 18px;
+}
