@@ -1,0 +1,30 @@
+$ npm exec html-validate index.html
+
+C:\Users\Admin\Desktop\Kodilla\nauka-gita-2\index.html
+   1:1   error  DOCTYPE should be uppercase                                              doctype-style
+   4:30  error  Expected omitted end tag <meta> instead of self-closing element <meta/>  void-style
+   5:49  error  Expected omitted end tag <meta> instead of self-closing element <meta/>  void-style
+  21:20  error  Inline style is not allowed                                              no-inline-style
+  22:16  error  Expected omitted end tag <br> instead of self-closing element <br/>      void-style
+  23:30  error  Expected omitted end tag <br> instead of self-closing element <br/>      void-style
+  24:33  error  Expected omitted end tag <br> instead of self-closing element <br/>      void-style
+  25:30  error  Expected omitted end tag <br> instead of self-closing element <br/>      void-style
+  28:4   error  Inline style is not allowed                                              no-inline-style
+  29:27  error  Expected omitted end tag <br> instead of self-closing element <br/>      void-style
+  30:31  error  Expected omitted end tag <br> instead of self-closing element <br/>      void-style
+  31:26  error  Expected omitted end tag <br> instead of self-closing element <br/>      void-style
+  33:1   error  Trailing whitespace                                                      no-trailing-whitespace
+  34:4   error  Inline style is not allowed                                              no-inline-style
+  35:33  error  Expected omitted end tag <br> instead of self-closing element <br/>      void-style
+  36:34  error  Expected omitted end tag <br> instead of self-closing element <br/>      void-style
+  37:33  error  Expected omitted end tag <br> instead of self-closing element <br/>      void-style
+  39:1   error  Trailing whitespace                                                      no-trailing-whitespace
+  40:1   error  Trailing whitespace                                                      no-trailing-whitespace
+
+✖ 19 problems (19 errors, 0 warnings)
+
+More information:
+  https://html-validate.org/rules/doctype-style.html
+  https://html-validate.org/rules/void-style.html
+  https://html-validate.org/rules/no-inline-style.html
+  https://html-validate.org/rules/no-trailing-whitespace.html
